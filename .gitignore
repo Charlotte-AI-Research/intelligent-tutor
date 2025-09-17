@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.build/
+build/
+dist/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.ruff_cache/
+
+# Virtual environments and environment files
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+.envrc
+
+# Databases
+*.db
+app.db
+backend/app.db
+
+# Node / Vite
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
